@@ -114,13 +114,25 @@ class _LoginPageState extends State<LoginPage>{
                     fontWeight: FontWeight.bold
                   ),)
                 ],
-              )
+              ),
             //o-auth
+              SizedBox(height: 10,),
+            Container(
+              child: Column(
+                children: [
+                 Text("-----OR-----",textAlign: TextAlign.center),
+                 SizedBox(height: 10,),
+                 Image.asset("assets/google.png",fit: BoxFit.contain,width: 50,)
+                ],
+              ),
+
+            ),
 
             ],
 
 
           ),
+
         ),
       ),
     );
